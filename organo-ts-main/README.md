@@ -28,9 +28,13 @@ Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `
 
 Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
 
-
+## RODAR PROJETO
+- npm run start
 
 ## CONVERTENDO PARA TYPESCRIPT
 
 # PACOTES
-- 
+- install packages `npm install --save typescript @types/node @types/react @types/react-dom @types/jest `
+
+- create file `npx tsc --init `
+
