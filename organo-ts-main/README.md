@@ -36,5 +36,5 @@ Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no se
 # PACOTES
 - install packages `npm install --save typescript @types/node @types/react @types/react-dom @types/jest `
 
-- create file `npx tsc --init `
+- create file do typescript `npx tsc --init `
 
