@@ -3,5 +3,5 @@ export default interface Icolaborador{
   imagem: string
   cargo: string
   time?: string
-  
+  data: string
 }
