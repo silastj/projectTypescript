@@ -4,7 +4,7 @@ import React from 'react'
 interface CampoTextoProps {
     placeholder: string
     label: string
-    obrigatorio: boolean
+    obrigatorio?: boolean
     aoAlterado: (valor: string) => void
     valor: string
 }

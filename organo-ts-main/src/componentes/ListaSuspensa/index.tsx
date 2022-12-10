@@ -1,14 +1,15 @@
 import './ListaSuspensa.css'
 
 interface ListaSuspensaProps {
-    aoAlterado: (evento : string) => void
+    aoAlterado: (valor : string) => void
     label: string
-    required: boolean
+    required?: boolean
     valor: string
-    itens: any
+    obrigatorio: boolean
+    itens: string[]
 }
 
-const ListaSuspensa = ({ label, required,valor,itens, aoAlterado}: ListaSuspensaProps) => {
+const ListaSuspensa = ({ label, required,valor,itens, obrigatorio = false, aoAlterado}: ListaSuspensaProps) => {
     return (
         <div className='lista-suspensa'>
             <label>{label}</label>
